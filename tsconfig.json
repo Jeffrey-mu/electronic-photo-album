@@ -1,0 +1,15 @@
+{
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "types": ["element-plus/global"],
+    "target": "ES2017",
+    "module": "ESNext",
+    "lib": ["ES2017", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true,
+    "moduleResolution": "node"
+  }
+} 
